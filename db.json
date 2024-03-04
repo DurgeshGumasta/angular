@@ -1,0 +1,20 @@
+{
+  "empData": [
+    {
+      "id": "cd1a",
+      "name": "Durgesh Gumasta",
+      "email": "Durgesh@gmail.com",
+      "city": "indore",
+      "pincode": 451020,
+      "phonenumber": "6266619490"
+    },
+    {
+      "id": "68d6",
+      "name": "gyashu Mishra",
+      "email": "gyashu@gmail.com",
+      "city": "Pune",
+      "pincode": 505010,
+      "phonenumber": "7894563289"
+    }
+  ]
+}
