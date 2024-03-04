@@ -1,0 +1,39 @@
+<div class="container mt-5">
+    <div class="rows">
+        <div class="col-md-6">
+            <div class="card">
+                <h5>update Data</h5>
+                <div class="row">
+                    <form >
+                        <div class="form-group mb-2">
+                          <label for="exampleInputEmail1">Enter Name</label>
+                          <input type="text" class="form-control" [(ngModel)]="employee.name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter Email</label>
+                            <input type="email" class="form-control"  [(ngModel)]="employee.email" name="email"  placeholder="Name email">
+                          </div>
+                          <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter City</label>
+                            <input type="text" class="form-control" [(ngModel)]="employee.city" name="city"  placeholder="City">
+        
+                          </div>
+                          <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter Pincode</label>
+                            <input type="number" class="form-control" [(ngModel)]="employee.pincode" name="pincode" placeholder="Pincode">
+                          </div>
+                          <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter Phone No</label>
+                            <input type="tel" class="form-control" [(ngModel)]="employee.phonenumber" name="phonenumber"  placeholder="Phone/Mobile">
+                          </div>
+                      </form>
+                
+                </div>
+                <div>
+                    <button (click)="update()" class="btn btn-success">Update</button>&nbsp;
+                    <button routerLink="/" class="btn btn-dark">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
